@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yhadmin.eventbustdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:textSize="20sp"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击打开新的Activity"
+        android:id="@+id/secondActivityBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test inject"
+        android:id="@+id/test1"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+      />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test module"
+        android:id="@+id/test_module"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+     />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test zhuru"
+        android:id="@+id/test_zr"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test activity"
+        android:id="@+id/test_activity"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</LinearLayout>

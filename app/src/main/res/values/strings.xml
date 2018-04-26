@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EventBust Demo</string>
+    <string name="hello_world">hello world</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>
